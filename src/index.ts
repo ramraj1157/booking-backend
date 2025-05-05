@@ -25,7 +25,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: "http://localhost:5174",
+    origin: "https://myhotelbooking.vercel.app",
     credentials: true,
   })
 );
